@@ -1,4 +1,7 @@
-# test coverage for  [dns-express (v1.4.1)](https://github.com/wankdanker/node-dns-express)  [![npm package](https://img.shields.io/npm/v/npmtest-dns-express.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-dns-express) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-dns-express.svg)](https://travis-ci.org/npmtest/node-npmtest-dns-express)
+# npmtest-dns-express
+
+#### basic test coverage for  [dns-express (v1.4.1)](https://github.com/wankdanker/node-dns-express)  [![npm package](https://img.shields.io/npm/v/npmtest-dns-express.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-dns-express) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-dns-express.svg)](https://travis-ci.org/npmtest/node-npmtest-dns-express)
+
 #### An Express style DNS server
 
 [![NPM](https://nodei.co/npm/dns-express.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/dns-express)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-dns-express/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-dns-express/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-dns-express/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-dns-express/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-dns-express/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-dns-express/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-dns-express/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-dns-express/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-dns-express/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-dns-express/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-dns-express/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-dns-express/build/coverage.html/index.html)
 
@@ -73,7 +76,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "1.4.1"
+    "version": "1.4.1",
+    "bin": {}
 }
 ```
 

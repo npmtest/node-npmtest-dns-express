@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "test coverage for [dns-express (v1.4.1)](https://github.com/wankdanker/node-dns-express) [![npm package](https://img.shields.io/npm/v/npmtest-dns-express.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-dns-express) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-dns-express.svg)](https://travis-ci.org/npmtest/node-npmtest-dns-express)",
+    "description": "#### basic test coverage for  [dns-express (v1.4.1)](https://github.com/wankdanker/node-dns-express)  [![npm package](https://img.shields.io/npm/v/npmtest-dns-express.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-dns-express) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-dns-express.svg)](https://travis-ci.org/npmtest/node-npmtest-dns-express)",
     "devDependencies": {
         "dns-express": "*",
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
@@ -36,5 +36,5 @@
         "start": "PORT=${PORT:-8080} utility2 start test.js",
         "test": "(set -e; export PORT=$(utility2 shServerPortRandom); utility2 test test.js)"
     },
-    "version": "0.0.1"
+    "version": "2017.4.26"
 }
